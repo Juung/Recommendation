@@ -10,7 +10,7 @@ class BatchGenerator:
 			self.Y = Y
 			self.data_size = X.shape[0]
 			self.batch_size = batch_size
-			self.iter = self.make_random_iter_sparse()
+			self.iter = self.make_random_iter()
 
 		else:
 			if len(X) != len(Y):
